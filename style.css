@@ -1,0 +1,66 @@
+.container{
+    display: grid;
+    grid-template-rows:  100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap:5px;
+}
+
+.box1 {
+    background-color: rgb(213, 224, 1);
+    grid-area: 1/1/1/6;
+}
+
+.box2 {
+    background-color: rgb(222, 124, 147);
+    grid-area: 1/6/2/8;
+}
+
+.box3 {
+    background-color: rgb(222, 124, 147);
+    grid-area: 1/8/2/10;
+}
+
+.box4 {
+    background-color: rgb(222, 124, 147);
+    grid-area: 1/10/2/12;
+}
+
+.box5 {
+    background-color: rgb(124, 220, 222);
+    grid-area: 2/1/2/9;
+}
+
+.box6 {
+    background-color: rgb(174, 235, 88);
+    grid-area: 3/1/8/3
+}
+
+.box7 {
+    background-color: rgb(151, 155, 145);
+    grid-area: 3/3/5/9
+}
+.box8 {
+    background-color: rgb(255, 255, 43);
+    grid-area: 5/3/8/9
+}
+
+.box9 {
+    background-color: rgb(255, 170, 43);
+    grid-area: 2/9/4/12
+}
+
+.box10 {
+    background-color: rgb(36, 115, 7);
+    grid-area: 4/9/6/12
+}
+
+.box11 {
+    background-color: rgb(202, 21, 238);
+    grid-area: 6/9/8/12
+}
+
+.box12 {
+    background-color: rgb(136, 123, 101);
+    grid-area: 8/1/8/12
+}
+
